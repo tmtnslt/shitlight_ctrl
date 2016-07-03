@@ -8,6 +8,7 @@ from shitlight_patterns import cross_cls
 from shitlight_patterns import raindrop_cls 
 from shitlight_patterns import unicolor_cls 
 from shitlight_patterns import klapp_cls
+from shitlight_patterns import circle_cls
 
 pattern = shooting_star_cls.ShootingStarPattern()
 
@@ -102,7 +103,9 @@ choices = [ ('Shooting Star', shooting_star_cls.ShootingStarPattern),
             ('Unicolor', unicolor_cls.UnicolorPattern),
             ('Raindrop', raindrop_cls.RaindropPattern),
             ('Klapp (fast)', klapp_cls.KlappPatternFast),
-            ('Klapp (slow)', klapp_cls.KlappPatternSlow) ]
+            ('Klapp (slow)', klapp_cls.KlappPatternSlow),
+            ('Circles (in2out)', circle_cls.CirclePattern),
+            ('Circles (out2in)', circle_cls.CirclePatternInv) ]
 
 
 class PatternMenu(urwid.WidgetPlaceholder):
