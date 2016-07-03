@@ -1,0 +1,6 @@
+[submodule "shitlight_patterns"]
+	path = shitlight_patterns
+	url = https://github.com/noah-jones/shitlight_patterns
+[submodule "shytlight_simulator"]
+	path = shytlight_simulator
+	url = https://github.com/tmtnslt/shytlight_simulator.git
